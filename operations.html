@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="operations.js"></script>
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    Enter the first number: &nbsp;
+    <input type="text" id="num1"><br><br>
+    Enter Second number: &nbsp;
+    <input type="text" id="num2"><br><br>
+    Select the operator &nbsp;
+    <select id="operator">
+        <option value=" ">Select</option>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+
+    </select><br><br>
+    <button onclick="operations()">Result</button>
+    <p id="result"></p>
+
+
+</body>
+</html>
